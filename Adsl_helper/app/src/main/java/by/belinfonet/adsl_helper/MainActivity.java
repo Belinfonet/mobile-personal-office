@@ -99,6 +99,5 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             Toast.makeText(this, conn.getContentEncoding() + " \n" +
                     conn.getContentType() , Toast.LENGTH_SHORT).show();
         }catch (Exception e){Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();}
-        }
     }
 }
